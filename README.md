@@ -76,17 +76,25 @@ cd node-bridge
 npm install
 ```
 
-3. **Download AI models**
+3. **Setup Google Sheets API (optional for feedback)**
+```bash
+# Copy the example credentials file
+cp credentials.example.json credentials.json
+# Edit credentials.json with your Google Cloud service account credentials
+# See GOOGLE_SHEETS_SETUP.md for detailed instructions
+```
+
+4. **Download AI models**
 ```bash
 npm run install-models
 ```
 
-4. **Start the service**
+5. **Start the service**
 ```bash
 npm start
 ```
 
-5. **Install Lightroom plugin**
+6. **Install Lightroom plugin**
 - Open Lightroom Classic
 - Go to File → Plug-in Manager
 - Click "Add" and select the `LightroomPlugin.lrdevplugin` folder
