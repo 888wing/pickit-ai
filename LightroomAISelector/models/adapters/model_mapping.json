@@ -1,0 +1,5 @@
+{
+  "nima_aesthetic.onnx": "mobilenetv2.onnx",
+  "nima_technical.onnx": "squeezenet.onnx",
+  "blazeface.onnx": "ultraface.onnx"
+}

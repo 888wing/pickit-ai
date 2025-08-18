@@ -1,0 +1,18 @@
+{
+  "name": "UltraFace Adapter",
+  "sourceModel": "ultraface.onnx",
+  "targetUse": "face_detection",
+  "preprocessing": {
+    "inputShape": [
+      1,
+      3,
+      240,
+      320
+    ],
+    "normalize": true
+  },
+  "postprocessing": {
+    "method": "nms",
+    "threshold": 0.5
+  }
+}
