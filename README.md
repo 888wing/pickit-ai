@@ -50,17 +50,29 @@
 - 4GB RAM (8GB recommended)
 - 500MB available disk space
 
-### One-Click Installation (Recommended)
+### Quick Installation
 
-#### macOS
+#### macOS/Linux
 ```bash
-curl -fsSL https://pickit.ai/install.sh | sh
+# Clone the repository
+git clone https://github.com/888wing/pickit-ai.git
+cd pickit-ai
+
+# Run the installation script
+./install.sh
 ```
 
 #### Windows
 ```powershell
-iwr -useb https://pickit.ai/install.ps1 | iex
+# Clone the repository
+git clone https://github.com/888wing/pickit-ai.git
+cd pickit-ai
+
+# Run the installation script
+install.bat
 ```
+
+For detailed instructions, see [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md)
 
 ### Manual Installation
 
